@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px" viewBox="0 0 1984.251953 2267.716553" width="1984.251953px" version="1.1" height="2267.716553px">
+    <g ID="GROUPPEDASELEMENT.GROUPPEDASELEMENT.GROUPPEDASELEMENT.e100TABLE_C495FBF2-5416-490F-B854-C3B2E6F10535" element_type="GROUPPEDASELEMENT.GROUPPEDASELEMENT.GROUPPEDASELEMENT.e100TABLE" dclass="DiaElement">
+        <g>
+            <path ID="contour" d=" M 745.143677 176.764893 L 745.143677 176.764893 C 745.143677 167.928345 752.307129 160.764893 761.143677 160.764893 L 1093.842163 160.764893 C 1102.678711 160.764893 1109.842163 167.928345 1109.842163 176.764893 L 1109.842163 873.523315 C 1109.842163 882.359863 1102.678711 889.523315 1093.842163 889.523315 L 761.143677 889.523315 C 752.307129 889.523315 745.143677 882.359863 745.143677 873.523315 Z M 745.143677 176.764893" dclass="DKReshapableShape" stroke-linecap="butt" stroke="#998A95" stroke-linejoin="miter" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-width="3.000000"></path>
+        </g>
+        <g dclass="NSArray">
+            <g spanRows="0" column="0" partOfOwnerHeight="0.054162" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 745.143677 160.764877 L 1109.842163 160.764877 L 1109.842163 200.235611 L 745.143677 200.235611 Z M 745.143677 160.764877" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,176.250244)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,193.250244)">Automotive
+</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.137860" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 745.143677 200.235626 L 1109.842163 200.235626 L 1109.842163 300.702118 L 745.143677 300.702118 Z M 745.143677 200.235626" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,220.718872)">-make: String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,237.718872)">-model: String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,254.718872)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,271.718872)">-basePrice: int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,288.718872)">-finalPrice: int</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.807979" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.047995" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="36.263107" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 745.143677 300.702087 L 1109.842163 300.702087 L 1109.842163 889.523254 L 745.143677 889.523254 Z M 745.143677 300.702087" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,335.862701)">+Automotive()
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,352.862701)">+Automotive(String, String)
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,369.862701)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,386.862701)">+getMake():String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,403.862701)">+getModel():String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,420.862701)">+getBasePrice():int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,437.862701)">+setMake(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,454.862701)">+setModel(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,471.862701)">+setBasePrice(int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,488.862701)">+setConfigOpt(Stirng):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,505.862701)">+hasOptionSet(String):boolean
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,522.862671)">+findOptoinSet(String):int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,539.862671)">+getOptionSet(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,556.862671)">+addOptionSet(String,int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,573.862671)">+getOption(String,String):Optoin
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,590.862671)">+addOption(String,String,int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,607.862671)">+setOption(String,String,int,int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,624.862671)">+setOptionChoice(String,String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,641.862671)">+setOptionName(String,String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,658.862671)">+setOptionPrice(String,String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,675.862671)">+setOptionSetName(String,String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,692.862671)">+getOptionChoice(String):String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,709.862671)">+getOptionPrice(String,String):int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,726.862671)">+setOptionSetName(String,String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,743.862671)">+getOptionChoice(String):String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,760.862671)">+getOptionPrice(String,String):int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,777.862671)">+printFinalConfiguration():void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,794.862671)">+printOptionsAvailable():void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,811.862671)">+removeOptionSet(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,828.862671)">+setFinalPrice(int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,845.862671)">+getFinalPrice():int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,862.862671)">+toString():String
+</text>
+                </g>
+            </g>
+            <g dclass="NSArray">
+                <path d=" M 745.143677 200.235611 L 1109.842163 200.235611" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                <path d=" M 745.143677 300.702118 L 1109.842163 300.702118" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+            </g>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32769" relative_location="{0.500000,0.010284}" position_kind="1"></StickySpot>
+            <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g ID="e100TABLE_7A1178AF-2399-4C8F-83B7-CD01083D9A33" element_type="e100TABLE" dclass="DiaElementTable">
+            <g>
+                <path ID="contour" d=" M 745.143677 176.764893 L 745.143677 176.764893 C 745.143677 167.928345 752.307129 160.764893 761.143677 160.764893 L 1093.842163 160.764893 C 1102.678711 160.764893 1109.842163 167.928345 1109.842163 176.764893 L 1109.842163 873.523315 C 1109.842163 882.359863 1102.678711 889.523315 1093.842163 889.523315 L 761.143677 889.523315 C 752.307129 889.523315 745.143677 882.359863 745.143677 873.523315 Z M 745.143677 176.764893" dclass="DKReshapableShape" stroke-linecap="butt" stroke="#998A95" stroke-linejoin="miter" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-width="3.000000"></path>
+            </g>
+            <g dclass="NSArray">
+                <g spanRows="0" column="0" partOfOwnerHeight="0.054162" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 160.764877 L 1109.842163 160.764877 L 1109.842163 200.235611 L 745.143677 200.235611 Z M 745.143677 160.764877" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,176.250244)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,193.250244)">Automotive
+</text>
+                    </g>
+                </g>
+                <g spanRows="0" column="0" partOfOwnerHeight="0.137860" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 200.235626 L 1109.842163 200.235626 L 1109.842163 300.702118 L 745.143677 300.702118 Z M 745.143677 200.235626" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,220.718872)">-make: String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,237.718872)">-model: String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,254.718872)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,271.718872)">-basePrice: int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,288.718872)">-finalPrice: int</text>
+                    </g>
+                </g>
+                <g spanRows="0" column="0" partOfOwnerHeight="0.807979" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.047995" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="36.263107" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 300.702087 L 1109.842163 300.702087 L 1109.842163 889.523254 L 745.143677 889.523254 Z M 745.143677 300.702087" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,335.862701)">+Automotive()
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,352.862701)">+Automotive(String, String)
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,369.862701)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,386.862701)">+getMake():String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,403.862701)">+getModel():String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,420.862701)">+getBasePrice():int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,437.862701)">+setMake(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,454.862701)">+setModel(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,471.862701)">+setBasePrice(int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,488.862701)">+setConfigOpt(Stirng):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,505.862701)">+hasOptionSet(String):boolean
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,522.862671)">+findOptoinSet(String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,539.862671)">+getOptionSet(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,556.862671)">+addOptionSet(String,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,573.862671)">+getOption(String,String):Optoin
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,590.862671)">+addOption(String,String,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,607.862671)">+setOption(String,String,int,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,624.862671)">+setOptionChoice(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,641.862671)">+setOptionName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,658.862671)">+setOptionPrice(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,675.862671)">+setOptionSetName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,692.862671)">+getOptionChoice(String):String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,709.862671)">+getOptionPrice(String,String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,726.862671)">+setOptionSetName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,743.862671)">+getOptionChoice(String):String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,760.862671)">+getOptionPrice(String,String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,777.862671)">+printFinalConfiguration():void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,794.862671)">+printOptionsAvailable():void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,811.862671)">+removeOptionSet(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,828.862671)">+setFinalPrice(int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,845.862671)">+getFinalPrice():int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,862.862671)">+toString():String
+</text>
+                    </g>
+                </g>
+                <g dclass="NSArray">
+                    <path d=" M 745.143677 200.235611 L 1109.842163 200.235611" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                    <path d=" M 745.143677 300.702118 L 1109.842163 300.702118" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                </g>
+            </g>
+            <Hotspots>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32769" relative_location="{0.500000,0.010284}" position_kind="1"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            </Hotspots>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g ID="GROUPPEDASELEMENT.e100TABLE_223066CC-1F31-4298-AAC6-F9041417D9E3" element_type="GROUPPEDASELEMENT.e100TABLE" dclass="DiaElement">
+            <g>
+                <path ID="contour" d=" M 745.143677 176.764893 L 745.143677 176.764893 C 745.143677 167.928345 752.307129 160.764893 761.143677 160.764893 L 1093.842163 160.764893 C 1102.678711 160.764893 1109.842163 167.928345 1109.842163 176.764893 L 1109.842163 873.523315 C 1109.842163 882.359863 1102.678711 889.523315 1093.842163 889.523315 L 761.143677 889.523315 C 752.307129 889.523315 745.143677 882.359863 745.143677 873.523315 Z M 745.143677 176.764893" dclass="DKReshapableShape" stroke-linecap="butt" stroke="#998A95" stroke-linejoin="miter" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-width="3.000000"></path>
+            </g>
+            <g dclass="NSArray">
+                <g spanRows="0" column="0" partOfOwnerHeight="0.054162" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 160.764877 L 1109.842163 160.764877 L 1109.842163 200.235611 L 745.143677 200.235611 Z M 745.143677 160.764877" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,176.250244)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,193.250244)">Automotive
+</text>
+                    </g>
+                </g>
+                <g spanRows="0" column="0" partOfOwnerHeight="0.137860" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 200.235626 L 1109.842163 200.235626 L 1109.842163 300.702118 L 745.143677 300.702118 Z M 745.143677 200.235626" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,220.718872)">-make: String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,237.718872)">-model: String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,254.718872)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,271.718872)">-basePrice: int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,288.718872)">-finalPrice: int</text>
+                    </g>
+                </g>
+                <g spanRows="0" column="0" partOfOwnerHeight="0.807979" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.047995" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="36.263107" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 300.702087 L 1109.842163 300.702087 L 1109.842163 889.523254 L 745.143677 889.523254 Z M 745.143677 300.702087" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,335.862701)">+Automotive()
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,352.862701)">+Automotive(String, String)
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,369.862701)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,386.862701)">+getMake():String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,403.862701)">+getModel():String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,420.862701)">+getBasePrice():int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,437.862701)">+setMake(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,454.862701)">+setModel(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,471.862701)">+setBasePrice(int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,488.862701)">+setConfigOpt(Stirng):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,505.862701)">+hasOptionSet(String):boolean
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,522.862671)">+findOptoinSet(String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,539.862671)">+getOptionSet(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,556.862671)">+addOptionSet(String,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,573.862671)">+getOption(String,String):Optoin
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,590.862671)">+addOption(String,String,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,607.862671)">+setOption(String,String,int,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,624.862671)">+setOptionChoice(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,641.862671)">+setOptionName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,658.862671)">+setOptionPrice(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,675.862671)">+setOptionSetName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,692.862671)">+getOptionChoice(String):String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,709.862671)">+getOptionPrice(String,String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,726.862671)">+setOptionSetName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,743.862671)">+getOptionChoice(String):String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,760.862671)">+getOptionPrice(String,String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,777.862671)">+printFinalConfiguration():void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,794.862671)">+printOptionsAvailable():void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,811.862671)">+removeOptionSet(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,828.862671)">+setFinalPrice(int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,845.862671)">+getFinalPrice():int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,862.862671)">+toString():String
+</text>
+                    </g>
+                </g>
+                <g dclass="NSArray">
+                    <path d=" M 745.143677 200.235611 L 1109.842163 200.235611" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                    <path d=" M 745.143677 300.702118 L 1109.842163 300.702118" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                </g>
+            </g>
+            <Hotspots>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32769" relative_location="{0.500000,0.010284}" position_kind="1"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            </Hotspots>
+            <g ID="e100TABLE_A45C6164-F7B8-4F9C-8821-FBEA06E4F612" element_type="e100TABLE" dclass="DiaElementTable">
+                <g>
+                    <path ID="contour" d=" M 745.143677 176.764893 L 745.143677 176.764893 C 745.143677 167.928345 752.307129 160.764893 761.143677 160.764893 L 1093.842163 160.764893 C 1102.678711 160.764893 1109.842163 167.928345 1109.842163 176.764893 L 1109.842163 873.523315 C 1109.842163 882.359863 1102.678711 889.523315 1093.842163 889.523315 L 761.143677 889.523315 C 752.307129 889.523315 745.143677 882.359863 745.143677 873.523315 Z M 745.143677 176.764893" dclass="DKReshapableShape" stroke-linecap="butt" stroke="#998A95" stroke-linejoin="miter" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-width="3.000000"></path>
+                </g>
+                <g dclass="NSArray">
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.054162" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 160.764877 L 1109.842163 160.764877 L 1109.842163 200.235611 L 745.143677 200.235611 Z M 745.143677 160.764877" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,176.250244)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,193.250244)">Automotive
+</text>
+                        </g>
+                    </g>
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.137860" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 200.235626 L 1109.842163 200.235626 L 1109.842163 300.702118 L 745.143677 300.702118 Z M 745.143677 200.235626" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,220.718872)">-make: String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,237.718872)">-model: String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,254.718872)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,271.718872)">-basePrice: int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,288.718872)">-finalPrice: int</text>
+                        </g>
+                    </g>
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.807979" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.047995" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="36.263107" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 300.702087 L 1109.842163 300.702087 L 1109.842163 889.523254 L 745.143677 889.523254 Z M 745.143677 300.702087" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,335.862701)">+Automotive()
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,352.862701)">+Automotive(String, String)
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,369.862701)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,386.862701)">+getMake():String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,403.862701)">+getModel():String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,420.862701)">+getBasePrice():int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,437.862701)">+setMake(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,454.862701)">+setModel(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,471.862701)">+setBasePrice(int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,488.862701)">+setConfigOpt(Stirng):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,505.862701)">+hasOptionSet(String):boolean
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,522.862671)">+findOptoinSet(String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,539.862671)">+getOptionSet(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,556.862671)">+addOptionSet(String,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,573.862671)">+getOption(String,String):Optoin
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,590.862671)">+addOption(String,String,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,607.862671)">+setOption(String,String,int,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,624.862671)">+setOptionChoice(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,641.862671)">+setOptionName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,658.862671)">+setOptionPrice(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,675.862671)">+setOptionSetName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,692.862671)">+getOptionChoice(String):String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,709.862671)">+getOptionPrice(String,String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,726.862671)">+setOptionSetName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,743.862671)">+getOptionChoice(String):String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,760.862671)">+getOptionPrice(String,String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,777.862671)">+printFinalConfiguration():void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,794.862671)">+printOptionsAvailable():void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,811.862671)">+removeOptionSet(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,828.862671)">+setFinalPrice(int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,845.862671)">+getFinalPrice():int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,862.862671)">+toString():String
+</text>
+                        </g>
+                    </g>
+                    <g dclass="NSArray">
+                        <path d=" M 745.143677 200.235611 L 1109.842163 200.235611" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                        <path d=" M 745.143677 300.702118 L 1109.842163 300.702118" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                    </g>
+                </g>
+                <Hotspots>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32769" relative_location="{0.500000,0.010284}" position_kind="1"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+                </Hotspots>
+            </g>
+            <Hotspots>
+                <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            </Hotspots>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="0C6F7A10-9DA1-48BE-AB61-434B06DF7579_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="0C6F7A10-9DA1-48BE-AB61-434B06DF7579_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="0C6F7A10-9DA1-48BE-AB61-434B06DF7579_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="0C6F7A10-9DA1-48BE-AB61-434B06DF7579_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g ID="GROUPPEDASELEMENT.GROUPPEDASELEMENT.e100TABLE_BA80975D-C7F0-4681-AFFF-BD7E05CA734B" element_type="GROUPPEDASELEMENT.GROUPPEDASELEMENT.e100TABLE" dclass="DiaElement">
+            <g>
+                <path ID="contour" d=" M 745.143677 176.764893 L 745.143677 176.764893 C 745.143677 167.928345 752.307129 160.764893 761.143677 160.764893 L 1093.842163 160.764893 C 1102.678711 160.764893 1109.842163 167.928345 1109.842163 176.764893 L 1109.842163 873.523315 C 1109.842163 882.359863 1102.678711 889.523315 1093.842163 889.523315 L 761.143677 889.523315 C 752.307129 889.523315 745.143677 882.359863 745.143677 873.523315 Z M 745.143677 176.764893" dclass="DKReshapableShape" stroke-linecap="butt" stroke="#998A95" stroke-linejoin="miter" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-width="3.000000"></path>
+            </g>
+            <g dclass="NSArray">
+                <g spanRows="0" column="0" partOfOwnerHeight="0.054162" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 160.764877 L 1109.842163 160.764877 L 1109.842163 200.235611 L 745.143677 200.235611 Z M 745.143677 160.764877" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,176.250244)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,193.250244)">Automotive
+</text>
+                    </g>
+                </g>
+                <g spanRows="0" column="0" partOfOwnerHeight="0.137860" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 200.235626 L 1109.842163 200.235626 L 1109.842163 300.702118 L 745.143677 300.702118 Z M 745.143677 200.235626" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,220.718872)">-make: String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,237.718872)">-model: String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,254.718872)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,271.718872)">-basePrice: int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,288.718872)">-finalPrice: int</text>
+                    </g>
+                </g>
+                <g spanRows="0" column="0" partOfOwnerHeight="0.807979" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.047995" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="36.263107" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                    <path d=" M 745.143677 300.702087 L 1109.842163 300.702087 L 1109.842163 889.523254 L 745.143677 889.523254 Z M 745.143677 300.702087" fill="none"></path>
+                    <g>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,335.862701)">+Automotive()
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,352.862701)">+Automotive(String, String)
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,369.862701)"></text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,386.862701)">+getMake():String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,403.862701)">+getModel():String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,420.862701)">+getBasePrice():int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,437.862701)">+setMake(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,454.862701)">+setModel(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,471.862701)">+setBasePrice(int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,488.862701)">+setConfigOpt(Stirng):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,505.862701)">+hasOptionSet(String):boolean
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,522.862671)">+findOptoinSet(String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,539.862671)">+getOptionSet(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,556.862671)">+addOptionSet(String,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,573.862671)">+getOption(String,String):Optoin
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,590.862671)">+addOption(String,String,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,607.862671)">+setOption(String,String,int,int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,624.862671)">+setOptionChoice(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,641.862671)">+setOptionName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,658.862671)">+setOptionPrice(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,675.862671)">+setOptionSetName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,692.862671)">+getOptionChoice(String):String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,709.862671)">+getOptionPrice(String,String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,726.862671)">+setOptionSetName(String,String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,743.862671)">+getOptionChoice(String):String
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,760.862671)">+getOptionPrice(String,String):int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,777.862671)">+printFinalConfiguration():void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,794.862671)">+printOptionsAvailable():void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,811.862671)">+removeOptionSet(String):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,828.862671)">+setFinalPrice(int):void
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,845.862671)">+getFinalPrice():int
+</text>
+                        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,862.862671)">+toString():String
+</text>
+                    </g>
+                </g>
+                <g dclass="NSArray">
+                    <path d=" M 745.143677 200.235611 L 1109.842163 200.235611" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                    <path d=" M 745.143677 300.702118 L 1109.842163 300.702118" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                </g>
+            </g>
+            <Hotspots>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32769" relative_location="{0.500000,0.010284}" position_kind="1"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            </Hotspots>
+            <g ID="e100TABLE_D0773F83-74CC-4F42-A4DD-3DDE98AA2891" element_type="e100TABLE" dclass="DiaElementTable">
+                <g>
+                    <path ID="contour" d=" M 745.143677 176.764893 L 745.143677 176.764893 C 745.143677 167.928345 752.307129 160.764893 761.143677 160.764893 L 1093.842163 160.764893 C 1102.678711 160.764893 1109.842163 167.928345 1109.842163 176.764893 L 1109.842163 873.523315 C 1109.842163 882.359863 1102.678711 889.523315 1093.842163 889.523315 L 761.143677 889.523315 C 752.307129 889.523315 745.143677 882.359863 745.143677 873.523315 Z M 745.143677 176.764893" dclass="DKReshapableShape" stroke-linecap="butt" stroke="#998A95" stroke-linejoin="miter" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-width="3.000000"></path>
+                </g>
+                <g dclass="NSArray">
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.054162" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 160.764877 L 1109.842163 160.764877 L 1109.842163 200.235611 L 745.143677 200.235611 Z M 745.143677 160.764877" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,176.250244)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,193.250244)">Automotive
+</text>
+                        </g>
+                    </g>
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.137860" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 200.235626 L 1109.842163 200.235626 L 1109.842163 300.702118 L 745.143677 300.702118 Z M 745.143677 200.235626" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,220.718872)">-make: String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,237.718872)">-model: String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,254.718872)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,271.718872)">-basePrice: int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,288.718872)">-finalPrice: int</text>
+                        </g>
+                    </g>
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.807979" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.047995" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="36.263107" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 300.702087 L 1109.842163 300.702087 L 1109.842163 889.523254 L 745.143677 889.523254 Z M 745.143677 300.702087" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,335.862701)">+Automotive()
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,352.862701)">+Automotive(String, String)
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,369.862701)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,386.862701)">+getMake():String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,403.862701)">+getModel():String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,420.862701)">+getBasePrice():int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,437.862701)">+setMake(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,454.862701)">+setModel(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,471.862701)">+setBasePrice(int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,488.862701)">+setConfigOpt(Stirng):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,505.862701)">+hasOptionSet(String):boolean
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,522.862671)">+findOptoinSet(String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,539.862671)">+getOptionSet(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,556.862671)">+addOptionSet(String,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,573.862671)">+getOption(String,String):Optoin
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,590.862671)">+addOption(String,String,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,607.862671)">+setOption(String,String,int,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,624.862671)">+setOptionChoice(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,641.862671)">+setOptionName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,658.862671)">+setOptionPrice(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,675.862671)">+setOptionSetName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,692.862671)">+getOptionChoice(String):String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,709.862671)">+getOptionPrice(String,String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,726.862671)">+setOptionSetName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,743.862671)">+getOptionChoice(String):String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,760.862671)">+getOptionPrice(String,String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,777.862671)">+printFinalConfiguration():void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,794.862671)">+printOptionsAvailable():void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,811.862671)">+removeOptionSet(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,828.862671)">+setFinalPrice(int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,845.862671)">+getFinalPrice():int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,862.862671)">+toString():String
+</text>
+                        </g>
+                    </g>
+                    <g dclass="NSArray">
+                        <path d=" M 745.143677 200.235611 L 1109.842163 200.235611" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                        <path d=" M 745.143677 300.702118 L 1109.842163 300.702118" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                    </g>
+                </g>
+                <Hotspots>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32769" relative_location="{0.500000,0.010284}" position_kind="1"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+                </Hotspots>
+            </g>
+            <Hotspots>
+                <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            </Hotspots>
+            <g ID="GROUPPEDASELEMENT.e100TABLE_FC408AA6-4F20-48C0-A82C-A9C650F28E3B" element_type="GROUPPEDASELEMENT.e100TABLE" dclass="DiaElement">
+                <g>
+                    <path ID="contour" d=" M 745.143677 176.764893 L 745.143677 176.764893 C 745.143677 167.928345 752.307129 160.764893 761.143677 160.764893 L 1093.842163 160.764893 C 1102.678711 160.764893 1109.842163 167.928345 1109.842163 176.764893 L 1109.842163 873.523315 C 1109.842163 882.359863 1102.678711 889.523315 1093.842163 889.523315 L 761.143677 889.523315 C 752.307129 889.523315 745.143677 882.359863 745.143677 873.523315 Z M 745.143677 176.764893" dclass="DKReshapableShape" stroke-linecap="butt" stroke="#998A95" stroke-linejoin="miter" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-width="3.000000"></path>
+                </g>
+                <g dclass="NSArray">
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.054162" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 160.764877 L 1109.842163 160.764877 L 1109.842163 200.235611 L 745.143677 200.235611 Z M 745.143677 160.764877" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,176.250244)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,193.250244)">Automotive
+</text>
+                        </g>
+                    </g>
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.137860" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 200.235626 L 1109.842163 200.235626 L 1109.842163 300.702118 L 745.143677 300.702118 Z M 745.143677 200.235626" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,220.718872)">-make: String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,237.718872)">-model: String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,254.718872)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,271.718872)">-basePrice: int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,288.718872)">-finalPrice: int</text>
+                        </g>
+                    </g>
+                    <g spanRows="0" column="0" partOfOwnerHeight="0.807979" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.047995" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="36.263107" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                        <path d=" M 745.143677 300.702087 L 1109.842163 300.702087 L 1109.842163 889.523254 L 745.143677 889.523254 Z M 745.143677 300.702087" fill="none"></path>
+                        <g>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,335.862701)">+Automotive()
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,352.862701)">+Automotive(String, String)
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,369.862701)"></text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,386.862701)">+getMake():String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,403.862701)">+getModel():String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,420.862701)">+getBasePrice():int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,437.862701)">+setMake(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,454.862701)">+setModel(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,471.862701)">+setBasePrice(int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,488.862701)">+setConfigOpt(Stirng):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,505.862701)">+hasOptionSet(String):boolean
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,522.862671)">+findOptoinSet(String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,539.862671)">+getOptionSet(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,556.862671)">+addOptionSet(String,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,573.862671)">+getOption(String,String):Optoin
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,590.862671)">+addOption(String,String,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,607.862671)">+setOption(String,String,int,int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,624.862671)">+setOptionChoice(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,641.862671)">+setOptionName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,658.862671)">+setOptionPrice(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,675.862671)">+setOptionSetName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,692.862671)">+getOptionChoice(String):String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,709.862671)">+getOptionPrice(String,String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,726.862671)">+setOptionSetName(String,String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,743.862671)">+getOptionChoice(String):String
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,760.862671)">+getOptionPrice(String,String):int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,777.862671)">+printFinalConfiguration():void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,794.862671)">+printOptionsAvailable():void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,811.862671)">+removeOptionSet(String):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,828.862671)">+setFinalPrice(int):void
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,845.862671)">+getFinalPrice():int
+</text>
+                            <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,862.862671)">+toString():String
+</text>
+                        </g>
+                    </g>
+                    <g dclass="NSArray">
+                        <path d=" M 745.143677 200.235611 L 1109.842163 200.235611" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                        <path d=" M 745.143677 300.702118 L 1109.842163 300.702118" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                    </g>
+                </g>
+                <Hotspots>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32769" relative_location="{0.500000,0.010284}" position_kind="1"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+                </Hotspots>
+                <g ID="e100TABLE_C1E2A48F-6D90-4589-9F47-3862BA958E20" element_type="e100TABLE" dclass="DiaElementTable">
+                    <g>
+                        <path ID="contour" d=" M 745.143677 176.764893 L 745.143677 176.764893 C 745.143677 167.928345 752.307129 160.764893 761.143677 160.764893 L 1093.842163 160.764893 C 1102.678711 160.764893 1109.842163 167.928345 1109.842163 176.764893 L 1109.842163 873.523315 C 1109.842163 882.359863 1102.678711 889.523315 1093.842163 889.523315 L 761.143677 889.523315 C 752.307129 889.523315 745.143677 882.359863 745.143677 873.523315 Z M 745.143677 176.764893" dclass="DKReshapableShape" stroke-linecap="butt" stroke="#998A95" stroke-linejoin="miter" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-width="3.000000"></path>
+                    </g>
+                    <g dclass="NSArray">
+                        <g spanRows="0" column="0" partOfOwnerHeight="0.054162" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                            <path d=" M 745.143677 160.764877 L 1109.842163 160.764877 L 1109.842163 200.235611 L 745.143677 200.235611 Z M 745.143677 160.764877" fill="none"></path>
+                            <g>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,176.250244)"></text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,193.250244)">Automotive
+</text>
+                            </g>
+                        </g>
+                        <g spanRows="0" column="0" partOfOwnerHeight="0.137860" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="4.409440" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                            <path d=" M 745.143677 200.235626 L 1109.842163 200.235626 L 1109.842163 300.702118 L 745.143677 300.702118 Z M 745.143677 200.235626" fill="none"></path>
+                            <g>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,220.718872)">-make: String
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,237.718872)">-model: String
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,254.718872)"></text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,271.718872)">-basePrice: int
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,288.718872)">-finalPrice: int</text>
+                            </g>
+                        </g>
+                        <g spanRows="0" column="0" partOfOwnerHeight="0.807979" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.047995" paddingLeftRightAbs="2.813672" paddingTopBottomAbs="36.263107" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                            <path d=" M 745.143677 300.702087 L 1109.842163 300.702087 L 1109.842163 889.523254 L 745.143677 889.523254 Z M 745.143677 300.702087" fill="none"></path>
+                            <g>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,335.862701)">+Automotive()
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,352.862701)">+Automotive(String, String)
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,369.862701)"></text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,386.862701)">+getMake():String
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,403.862701)">+getModel():String
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,420.862701)">+getBasePrice():int
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,437.862701)">+setMake(String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,454.862701)">+setModel(String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,471.862701)">+setBasePrice(int):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,488.862701)">+setConfigOpt(Stirng):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,505.862701)">+hasOptionSet(String):boolean
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,522.862671)">+findOptoinSet(String):int
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,539.862671)">+getOptionSet(String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,556.862671)">+addOptionSet(String,int):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,573.862671)">+getOption(String,String):Optoin
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,590.862671)">+addOption(String,String,int):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,607.862671)">+setOption(String,String,int,int):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,624.862671)">+setOptionChoice(String,String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,641.862671)">+setOptionName(String,String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,658.862671)">+setOptionPrice(String,String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,675.862671)">+setOptionSetName(String,String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,692.862671)">+getOptionChoice(String):String
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,709.862671)">+getOptionPrice(String,String):int
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,726.862671)">+setOptionSetName(String,String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,743.862671)">+getOptionChoice(String):String
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,760.862671)">+getOptionPrice(String,String):int
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,777.862671)">+printFinalConfiguration():void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,794.862671)">+printOptionsAvailable():void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,811.862671)">+removeOptionSet(String):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,828.862671)">+setFinalPrice(int):void
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,845.862671)">+getFinalPrice():int
+</text>
+                                <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,927.492920,862.862671)">+toString():String
+</text>
+                            </g>
+                        </g>
+                        <g dclass="NSArray">
+                            <path d=" M 745.143677 200.235611 L 1109.842163 200.235611" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                            <path d=" M 745.143677 300.702118 L 1109.842163 300.702118" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                        </g>
+                    </g>
+                    <Hotspots>
+                        <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                        <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32769" relative_location="{0.500000,0.010284}" position_kind="1"></StickySpot>
+                        <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                        <StickySpot id_sticky_spot="F2784EFF-61FA-4768-9B2A-0F402F5658F6_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+                    </Hotspots>
+                </g>
+                <Hotspots>
+                    <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                    <StickySpot id_sticky_spot="F3E2CD2C-48B5-4020-BD19-0BDABC9C42DE_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+                </Hotspots>
+            </g>
+            <Hotspots>
+                <StickySpot id_sticky_spot="0C6F7A10-9DA1-48BE-AB61-434B06DF7579_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="0C6F7A10-9DA1-48BE-AB61-434B06DF7579_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="0C6F7A10-9DA1-48BE-AB61-434B06DF7579_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+                <StickySpot id_sticky_spot="0C6F7A10-9DA1-48BE-AB61-434B06DF7579_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            </Hotspots>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32773" relative_location="{-0.500000,0.118189}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32772" relative_location="{0.500000,-0.076422}" position_kind="2"></StickySpot>
+        </Hotspots>
+    </g>
+    <g ID="e100TABLE_30C4A503-A9D6-4563-84B2-27574D3DE756" element_type="e100TABLE" dclass="DiaElementTable">
+        <g>
+            <path d=" M 1197.948242 200.623093 L 1197.948242 200.623093 C 1197.948242 191.786499 1205.111694 184.623108 1213.948242 184.623108 L 1536.135498 184.623108 C 1544.971924 184.623108 1552.135376 191.786499 1552.135376 200.623093 L 1552.135376 576.284424 C 1552.135376 585.120972 1544.971924 592.284485 1536.135498 592.284485 L 1213.948242 592.284485 C 1205.111694 592.284485 1197.948242 585.120972 1197.948242 576.284424 Z M 1197.948242 200.623093" dclass="DKReshapableShape" stroke-linejoin="miter" stroke="#998A95" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-linecap="butt" stroke-width="3.000000" ID="contour"></path>
+        </g>
+        <g dclass="NSArray">
+            <g spanRows="0" column="0" partOfOwnerHeight="0.131313" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="3.577344" paddingTopBottomAbs="4.498958" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 1197.948242 184.623062 L 1552.135498 184.623062 L 1552.135498 238.154343 L 1197.948242 238.154343 Z M 1197.948242 184.623062" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,207.138702)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,224.138702)">OptionSet
+</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.173666" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="3.577344" paddingTopBottomAbs="4.498958" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 1197.948242 238.154358 L 1552.135498 238.154358 L 1552.135498 308.951111 L 1197.948242 308.951111 Z M 1197.948242 238.154358" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,260.802734)">-name:String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,277.802734)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,294.802734)">-optionChoice: String</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.695021" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.050000" paddingLeftRightAbs="3.577344" paddingTopBottomAbs="4.498958" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 1197.948242 308.951111 L 1552.135498 308.951111 L 1552.135498 592.284485 L 1197.948242 592.284485 Z M 1197.948242 308.951111" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,335.867798)">+getName():String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,352.867798)">+setName(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,369.867798)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,386.867798)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,403.867798)">+getOptionChoice():String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,420.867798)">+setOptionChoice(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,437.867798)">+addOption(String,int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,454.867798)">+getOption(String):Option
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,471.867798)">+setOption(int,String,int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,488.867798)">+findOption(String):int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,505.867798)">+hasOption(String):boolean
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,522.867798)">+setOptionName(String,String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,539.867798)">+getOptionPrice(String):int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,556.867798)">+setOptionPrice(String, int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1375.041870,573.867798)">+removeOption(String):void</text>
+                </g>
+            </g>
+            <g dclass="NSArray">
+                <path d=" M 1197.948242 238.154343 L 1552.135498 238.154343" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                <path d=" M 1197.948242 308.951111 L 1552.135498 308.951111" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+            </g>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32774" relative_location="{-0.270509,0.500000}" position_kind="1"></StickySpot>
+            <StickySpot id_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32773" relative_location="{0.000000,0.500000}" position_kind="1"></StickySpot>
+            <StickySpot id_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32771" relative_location="{0.009427,-0.500000}" position_kind="1"></StickySpot>
+            <StickySpot id_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32772" relative_location="{-0.500000,0.132678}" position_kind="2"></StickySpot>
+        </Hotspots>
+    </g>
+    <g ID="e100TABLE_49A71EB5-2030-492E-A23F-E39D849942C6" element_type="e100TABLE" dclass="DiaElementTable">
+        <g>
+            <path d=" M 1364.092651 675.061584 L 1364.092651 675.061584 C 1364.092651 666.225098 1371.255981 659.061584 1380.092651 659.061584 L 1537.491333 659.061584 C 1546.327881 659.061584 1553.491211 666.225098 1553.491211 675.061584 L 1553.491211 844.311829 C 1553.491211 853.148315 1546.327881 860.311829 1537.491333 860.311829 L 1380.092651 860.311829 C 1371.255981 860.311829 1364.092651 853.148315 1364.092651 844.311829 Z M 1364.092651 675.061584" dclass="DKReshapableShape" stroke-linejoin="miter" stroke="#998A95" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-linecap="butt" stroke-width="3.000000" ID="contour"></path>
+        </g>
+        <g dclass="NSArray">
+            <g spanRows="0" column="0" partOfOwnerHeight="0.217871" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="6.469141" paddingTopBottomAbs="7.022787" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 1364.092529 659.061584 L 1553.491211 659.061584 L 1553.491211 702.908264 L 1364.092529 702.908264 Z M 1364.092529 659.061584" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,676.734924)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,693.734924)">Option</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.215292" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="6.469141" paddingTopBottomAbs="7.022787" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 1364.092529 702.908264 L 1553.491211 702.908264 L 1553.491211 746.235779 L 1364.092529 746.235779 Z M 1364.092529 702.908264" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,720.322021)">-name:String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,737.322021)">-price:int</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.566837" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.050000" paddingLeftRightAbs="6.469141" paddingTopBottomAbs="7.022787" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 1364.092529 746.235779 L 1553.491211 746.235779 L 1553.491211 860.311829 L 1364.092529 860.311829 Z M 1364.092529 746.235779" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,773.523804)">+getName():String
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,790.523804)">+setName(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,807.523804)">+getPrice():int
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,824.523804)">+setPrice(int):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,1458.791870,841.523804)">+toString():String</text>
+                </g>
+            </g>
+            <g dclass="NSArray">
+                <path d=" M 1364.092529 702.908264 L 1553.491211 702.908264" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                <path d=" M 1364.092529 746.235779 L 1553.491211 746.235779" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+            </g>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="2ACF353A-2F69-4AEE-80C2-70557DF15601_32772" relative_location="{-0.495271,-0.446788}" position_kind="1"></StickySpot>
+            <StickySpot id_sticky_spot="2ACF353A-2F69-4AEE-80C2-70557DF15601_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="2ACF353A-2F69-4AEE-80C2-70557DF15601_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="2ACF353A-2F69-4AEE-80C2-70557DF15601_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="2ACF353A-2F69-4AEE-80C2-70557DF15601_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="2ACF353A-2F69-4AEE-80C2-70557DF15601_32773" relative_location="{-0.495271,-0.446789}" position_kind="1"></StickySpot>
+        </Hotspots>
+    </g>
+    <g ID="e100TABLE_599FC7E5-DD76-43C1-A818-C665AEBB895F" element_type="e100TABLE" dclass="DiaElementTable">
+        <g>
+            <path d=" M 269.823364 182.306244 L 269.823364 182.306244 C 269.823364 173.469650 276.986816 166.306229 285.823364 166.306229 L 623.088867 166.306229 C 631.925415 166.306229 639.088867 173.469650 639.088867 182.306244 L 639.088867 288.969543 C 639.088867 297.806061 631.925415 304.969543 623.088867 304.969543 L 285.823364 304.969543 C 276.986816 304.969543 269.823364 297.806061 269.823364 288.969543 Z M 269.823364 182.306244" dclass="DKReshapableShape" stroke-linejoin="miter" stroke="#998A95" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-linecap="butt" stroke-width="3.000000" ID="contour"></path>
+        </g>
+        <g dclass="NSArray">
+            <g spanRows="0" column="0" partOfOwnerHeight="0.362051" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="7.276954" paddingTopBottomAbs="7.233984" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 269.823364 166.306213 L 639.088867 166.306213 L 639.088867 216.509338 L 269.823364 216.509338 Z M 269.823364 166.306213" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,454.456116,187.157776)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,454.456116,204.157776)">UpdateAuto</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.050000" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="7.276954" paddingTopBottomAbs="7.233984" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 269.823364 216.509338 L 639.088867 216.509338 L 639.088867 223.442505 L 269.823364 223.442505 Z M 269.823364 216.509338" fill="none"></path>
+                <g></g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.588710" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.050000" paddingLeftRightAbs="7.276954" paddingTopBottomAbs="7.233984" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 269.823364 223.442505 L 639.088867 223.442505 L 639.088867 305.075073 L 269.823364 305.075073 Z M 269.823364 223.442505" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,454.456116,251.508789)">+updateOptionSetName(String,String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,454.456116,268.508789)">+updateOptionPrice(String,String,int):void
+</text>
+                </g>
+            </g>
+            <g dclass="NSArray">
+                <path d=" M 269.823364 216.509338 L 639.088867 216.509338" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                <path d=" M 269.823364 223.442505 L 639.088867 223.442505" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+            </g>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="B4621DDA-9073-4325-A925-FA5B62C7BA17_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="B4621DDA-9073-4325-A925-FA5B62C7BA17_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="B4621DDA-9073-4325-A925-FA5B62C7BA17_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="B4621DDA-9073-4325-A925-FA5B62C7BA17_32771" relative_location="{0.000000,-0.500000}" position_kind="1"></StickySpot>
+        </Hotspots>
+    </g>
+    <g ID="e100TABLE_38922CCC-09D0-47D5-B090-BFB7F2D1DB33" element_type="e100TABLE" dclass="DiaElementTable">
+        <g>
+            <path d=" M 270.823395 365.054443 L 270.823395 365.054443 C 270.823395 356.217957 277.986847 349.054504 286.823364 349.054504 L 553.323608 349.054504 C 562.160156 349.054504 569.323608 356.217957 569.323608 365.054443 L 569.323608 445.858673 C 569.323608 454.695160 562.160156 461.858704 553.323608 461.858704 L 286.823364 461.858704 C 277.986847 461.858704 270.823395 454.695160 270.823395 445.858673 Z M 270.823395 365.054443" dclass="DKReshapableShape" stroke-linejoin="miter" stroke="#998A95" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-linecap="butt" stroke-width="3.000000" ID="contour"></path>
+        </g>
+        <g dclass="NSArray">
+            <g spanRows="0" column="0" partOfOwnerHeight="0.360450" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="4.642709" paddingTopBottomAbs="3.779036" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 270.823425 349.054504 L 569.323792 349.054504 L 569.323792 389.714783 L 270.823425 389.714783 Z M 270.823425 349.054504" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,420.073608,365.134644)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,420.073608,382.134644)">CreateAuto</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.060910" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="4.642709" paddingTopBottomAbs="3.779036" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 270.823425 389.714752 L 569.323792 389.714752 L 569.323792 396.585602 L 270.823425 396.585602 Z M 270.823425 389.714752" fill="none"></path>
+                <g></g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.578641" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.050000" paddingLeftRightAbs="4.642709" paddingTopBottomAbs="3.779036" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 270.823425 396.585632 L 569.323792 396.585632 L 569.323792 461.858704 L 270.823425 461.858704 Z M 270.823425 396.585632" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,420.073608,424.972168)">+BuildAuto(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,420.073608,441.972168)">+PrintAuto():void</text>
+                </g>
+            </g>
+            <g dclass="NSArray">
+                <path d=" M 270.823425 389.714783 L 569.323792 389.714783" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                <path d=" M 270.823425 396.585602 L 569.323792 396.585602" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+            </g>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="45D0B220-B071-4FC2-A956-89333389D239_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="45D0B220-B071-4FC2-A956-89333389D239_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="45D0B220-B071-4FC2-A956-89333389D239_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="45D0B220-B071-4FC2-A956-89333389D239_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+    </g>
+    <g ID="e100TABLE_F1A07D2B-5BBE-4806-BFB4-7298DD251589" element_type="e100TABLE" dclass="DiaElementTable">
+        <g>
+            <path d=" M 269.428772 668.874084 L 269.428772 668.874084 C 269.428772 660.037598 276.592224 652.874146 285.428772 652.874146 L 620.155334 652.874146 C 628.991882 652.874146 636.155273 660.037598 636.155273 668.874084 L 636.155273 829.856079 C 636.155273 838.692688 628.991882 845.856140 620.155334 845.856140 L 285.428772 845.856140 C 276.592224 845.856140 269.428772 838.692688 269.428772 829.856079 Z M 269.428772 668.874084" dclass="DKReshapableShape" stroke-linejoin="miter" stroke="#998A95" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-linecap="butt" stroke-width="3.000000" ID="contour"></path>
+        </g>
+        <g dclass="NSArray">
+            <g spanRows="0" column="0" partOfOwnerHeight="0.251158" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="6.422657" paddingTopBottomAbs="5.342448" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 269.428741 652.874084 L 636.155273 652.874084 L 636.155273 701.343079 L 269.428741 701.343079 Z M 269.428741 652.874084" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,452.792023,672.858582)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,452.792023,689.858582)">proxyAutomobile</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.183712" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="6.422657" paddingTopBottomAbs="5.342448" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 269.428741 701.343018 L 636.155273 701.343018 L 636.155273 736.796143 L 269.428741 736.796143 Z M 269.428741 701.343018" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,452.792023,723.319580)">
+                        <tspan style="text-decoration: underline;">+a1:Automotive
+</tspan>
+                    </text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.565130" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.050000" paddingLeftRightAbs="6.422657" paddingTopBottomAbs="5.342448" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000000">
+                <path d=" M 269.428741 736.796143 L 636.155273 736.796143 L 636.155273 845.856079 L 269.428741 845.856079 Z M 269.428741 736.796143" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,452.792023,770.076111)">+BuildAuto(String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,452.792023,787.076111)">+PrintAuto():void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,452.792023,804.076111)">+updateOptionSetName(String,String):void
+</text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,452.792023,821.076111)">+updateOptionPrice(String,String,int):void</text>
+                </g>
+            </g>
+            <g dclass="NSArray">
+                <path d=" M 269.428741 701.343079 L 636.155273 701.343079" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                <path d=" M 269.428741 736.796143 L 636.155273 736.796143" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+            </g>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="E6E31C12-2847-4BD9-8534-B4A22BF8D718_32772" relative_location="{0.497215,-0.446299}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="E6E31C12-2847-4BD9-8534-B4A22BF8D718_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="E6E31C12-2847-4BD9-8534-B4A22BF8D718_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="E6E31C12-2847-4BD9-8534-B4A22BF8D718_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="E6E31C12-2847-4BD9-8534-B4A22BF8D718_32771" relative_location="{0.000000,-0.500000}" position_kind="1"></StickySpot>
+        </Hotspots>
+    </g>
+    <g ID="e100TABLE_8DE90FA3-0454-4421-A0F7-AFBB74E857ED" element_type="e100TABLE" dclass="DiaElementTable">
+        <g>
+            <path d=" M 269.722321 539.901794 L 269.722321 539.901794 C 269.722321 531.065186 276.885773 523.901672 285.722321 523.901672 L 454.589020 523.901672 C 463.425537 523.901672 470.588989 531.065186 470.588989 539.901794 L 470.588989 578.754272 C 470.588989 587.590820 463.425537 594.754211 454.589020 594.754211 L 285.722321 594.754211 C 276.885773 594.754211 269.722321 587.590820 269.722321 578.754272 Z M 269.722321 539.901794" dclass="DKReshapableShape" stroke-linejoin="miter" stroke="#998A95" stroke-opacity="1.000000" fill-opacity="0.000000" fill="#000000" stroke-linecap="butt" stroke-width="3.000000" ID="contour"></path>
+        </g>
+        <g dclass="NSArray">
+            <g spanRows="0" column="0" partOfOwnerHeight="0.717964" paddingLeftRight="0.050000" row="0" paddingTopBottom="0.050000" paddingLeftRightAbs="4.348698" paddingTopBottomAbs="2.363021" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000001">
+                <path d=" M 269.722321 523.901611 L 470.589203 523.901611 L 470.589203 574.771240 L 269.722321 574.771240 Z M 269.722321 523.901611" fill="none"></path>
+                <g>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,370.155762,545.086426)"></text>
+                    <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;" text-anchor="middle" transform="matrix(1.000000,0.000000,-0.000000,1.000000,370.155762,562.086426)">BuildAuto</text>
+                </g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.141581" paddingLeftRight="0.050000" row="1" paddingTopBottom="0.050000" paddingLeftRightAbs="4.348698" paddingTopBottomAbs="2.363021" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000001">
+                <path d=" M 269.722321 574.771240 L 470.589203 574.771240 L 470.589203 584.802612 L 269.722321 584.802612 Z M 269.722321 574.771240" fill="none"></path>
+                <g></g>
+            </g>
+            <g spanRows="0" column="0" partOfOwnerHeight="0.140455" paddingLeftRight="0.050000" row="2" paddingTopBottom="0.050000" paddingLeftRightAbs="4.348698" paddingTopBottomAbs="2.363021" spanColumns="0" dclass="DiaTextCell" paddingMode="0" partOfOwnerWidth="1.000001">
+                <path d=" M 269.722321 584.802612 L 470.589203 584.802612 L 470.589203 594.754150 L 269.722321 594.754150 Z M 269.722321 584.802612" fill="none"></path>
+                <g></g>
+            </g>
+            <g dclass="NSArray">
+                <path d=" M 269.722321 574.771240 L 470.589203 574.771240" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+                <path d=" M 269.722321 584.802612 L 470.589203 584.802612" stroke-opacity="1.000000" stroke-width="3.000000" stroke="#998A95"></path>
+            </g>
+        </g>
+        <Hotspots>
+            <StickySpot id_sticky_spot="33C48F1B-AF9C-439A-B32C-5FBADB2E12BE_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="33C48F1B-AF9C-439A-B32C-5FBADB2E12BE_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="33C48F1B-AF9C-439A-B32C-5FBADB2E12BE_32770" relative_location="{0.000000,0.500000}" position_kind="1"></StickySpot>
+            <StickySpot id_sticky_spot="33C48F1B-AF9C-439A-B32C-5FBADB2E12BE_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="33C48F1B-AF9C-439A-B32C-5FBADB2E12BE_32772" relative_location="{0.500000,0.000000}" position_kind="1"></StickySpot>
+        </Hotspots>
+    </g>
+    <defs></defs>
+    <g dclass="DiaConnector">
+        <g fill="none" enabled="1" ID="EA110735-278C-462C-A71D-9EFE424B61CE" dclass="DiaConnectorStyle">
+            <path d=" M 1109.988159 469.929169 L 1188.052124 446.086853 L 1187.760132 445.130493 L 1109.696167 468.972809 L 1109.988159 469.929169 Z M 1109.988159 469.929169" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 1109.988159 469.929169 L 1188.052124 446.086853 L 1187.760132 445.130493 L 1109.696167 468.972809 L 1109.988159 469.929169 Z M 1186.248291 450.427216 L 1196.513672 442.979767 L 1183.839111 442.538605 Z M 1186.248291 450.427216" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 1186.248291 450.427216 L 1196.513672 442.979767 L 1183.839111 442.538605 Z M 1186.248291 450.427216" dclass="DKArrowStroke" fill="#000000"></path>
+        </g>
+        <ConnectorEndPoint location="{1109.8422, 469.45099}" id_target_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32772" is_start="1"></ConnectorEndPoint>
+        <ConnectorEndPoint location="{1197.9482, 442.54163}" id_target_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32772" is_start="0"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#1A2BF52B-9AC5-475B-B8BF-A71369550DAB" startOffset="0.000000%" baseline-shift="0.000000"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g fill="none" enabled="1" ID="959643E5-AC3A-440B-ABFE-25EC26877B69" dclass="DiaConnectorStyle">
+            <path d=" M 1375.902954 593.610474 L 1450.270264 652.906555 L 1450.893799 652.124695 L 1376.526489 592.828613 L 1375.902954 593.610474 Z M 1375.902954 593.610474" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 1375.902954 593.610474 L 1450.270264 652.906555 L 1450.893799 652.124695 L 1376.526489 592.828613 L 1375.902954 593.610474 Z M 1445.670898 653.874390 L 1457.619019 658.126465 L 1450.812988 647.425293 Z M 1445.670898 653.874390" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 1445.670898 653.874390 L 1457.619019 658.126465 L 1450.812988 647.425293 Z M 1445.670898 653.874390" dclass="DKArrowStroke" fill="#000000"></path>
+        </g>
+        <ConnectorEndPoint location="{1375.0419, 592.28442}" id_target_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32773" is_start="1"></ConnectorEndPoint>
+        <ConnectorEndPoint location="{1458.7919, 659.06158}" id_target_sticky_spot="2ACF353A-2F69-4AEE-80C2-70557DF15601_32771" is_start="0"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#3CD68961-AA03-4D86-97F1-845183D459FB" startOffset="0.000000%" baseline-shift="0.000000"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g fill="none" enabled="1" ID="3E67652B-3644-4AD6-81F0-9DDA76244337" dclass="DiaConnectorStyle">
+            <path d=" M 1364.210449 668.393799 L 1287.356812 598.952820 L 1286.686401 599.694763 L 1363.540039 669.135742 L 1364.210449 668.393799 Z M 1364.210449 668.393799" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 1364.210449 668.393799 L 1287.356812 598.952820 L 1286.686401 599.694763 L 1363.540039 669.135742 L 1364.210449 668.393799 Z M 1292.007202 598.270264 L 1280.343750 593.290039 L 1286.477295 604.390381 Z M 1292.007202 598.270264" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 1292.007202 598.270264 L 1280.343750 593.290039 L 1286.477295 604.390381 Z M 1292.007202 598.270264" dclass="DKArrowStroke" fill="#000000"></path>
+        </g>
+        <ConnectorEndPoint location="{1364.9882, 669.77039}" id_target_sticky_spot="2ACF353A-2F69-4AEE-80C2-70557DF15601_32773" is_start="1"></ConnectorEndPoint>
+        <ConnectorEndPoint location="{1279.2308, 592.28442}" id_target_sticky_spot="32911BD4-6071-4F13-BA3B-F953104855FB_32774" is_start="0"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#A8F029D9-029B-476B-BDB9-8643821B1052" startOffset="0.000000%" baseline-shift="0.000000"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g fill="none" enabled="1" ID="0B5A4D18-2787-4B5E-AACB-D95E9736A783" dclass="DiaConnectorStyle">
+            <path d=" M 472.139282 559.638794 L 736.274414 526.752258 L 736.150879 525.759949 L 472.015747 558.646484 L 472.139282 559.638794 Z M 472.139282 559.638794" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 472.139282 559.638794 L 736.274414 526.752258 L 736.150879 525.759949 L 472.015747 558.646484 L 472.139282 559.638794 Z M 733.752197 530.718445 L 745.143677 525.144104 L 732.733032 522.533325 Z M 733.752197 530.718445" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 733.752197 530.718445 L 745.143677 525.144104 L 732.733032 522.533325 Z M 733.752197 530.718445" dclass="DKArrowStroke" fill="#000000"></path>
+        </g>
+        <ConnectorEndPoint location="{470.58902, 559.32794}" id_target_sticky_spot="33C48F1B-AF9C-439A-B32C-5FBADB2E12BE_32772" is_start="1"></ConnectorEndPoint>
+        <ConnectorEndPoint location="{745.14368, 525.1441}" id_target_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32768" is_start="0"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#A9CF11E9-6AFB-4475-8910-93539A5655B3" startOffset="0.000000%" baseline-shift="0.000000"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g fill="none" enabled="1" ID="8D195786-B51D-4374-BD9F-F6A95FD81839" dclass="DiaConnectorStyle">
+            <path d=" M 269.592224 557.752197 L 204.376862 405.260010 L 203.917145 405.956604 L 260.323395 405.956604 L 260.323395 404.956604 L 203.917145 404.956604 C 203.558350 404.956604 203.316345 405.323334 203.457428 405.653198 L 268.672791 558.145386 L 269.592224 557.752197 Z M 269.592224 557.752197" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 269.592224 557.752197 L 204.376862 405.260010 L 203.917145 405.956604 L 260.323395 405.956604 L 260.323395 404.956604 L 203.917145 404.956604 C 203.558350 404.956604 203.316345 405.323334 203.457428 405.653198 L 268.672791 558.145386 L 269.592224 557.752197 Z M 257.330414 409.580750 L 269.323395 405.456604 L 257.330414 401.332458 Z M 257.330414 409.580750" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 257.330414 409.580750 L 269.323395 405.456604 L 257.330414 401.332458 Z M 257.330414 409.580750" dclass="DKArrowStroke" fill="#000000"></path>
+        </g>
+        <ConnectorEndPoint location="{269.72232, 559.32794}" id_target_sticky_spot="33C48F1B-AF9C-439A-B32C-5FBADB2E12BE_32768" is_start="1"></ConnectorEndPoint>
+        <ConnectorEndPoint location="{270.82339, 405.4566}" id_target_sticky_spot="45D0B220-B071-4FC2-A956-89333389D239_32768" is_start="0"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#14DF4635-7159-41C1-ABEF-F692B818A0E7" startOffset="0.000000%" baseline-shift="0.000000"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g fill="none" enabled="1" ID="DA97597F-19AD-4EBE-87F0-966928C93AC1" dclass="DiaConnectorStyle">
+            <path d=" M 269.060028 557.892151 L 123.476952 402.852386 L 123.488632 403.524017 L 263.282593 243.867020 L 262.530212 243.208267 L 122.736282 402.865265 C 122.566811 403.058807 122.571861 403.349365 122.747963 403.536896 L 268.331024 558.576721 L 269.060028 557.892151 Z M 269.060028 557.892151" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 269.060028 557.892151 L 123.476952 402.852386 L 123.488632 403.524017 L 263.282593 243.867020 L 262.530212 243.208267 L 122.736282 402.865265 C 122.566811 403.058807 122.571861 403.349365 122.747963 403.536896 L 268.331024 558.576721 L 269.060028 557.892151 Z M 264.037628 248.506241 L 268.835205 236.766434 L 257.831909 243.072617 Z M 264.037628 248.506241" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 264.037628 248.506241 L 268.835205 236.766434 L 257.831909 243.072617 Z M 264.037628 248.506241" dclass="DKArrowStroke" fill="#000000"></path>
+        </g>
+        <ConnectorEndPoint location="{269.72232, 559.32794}" id_target_sticky_spot="33C48F1B-AF9C-439A-B32C-5FBADB2E12BE_32768" is_start="1"></ConnectorEndPoint>
+        <ConnectorEndPoint location="{269.82333, 235.63789}" id_target_sticky_spot="B4621DDA-9073-4325-A925-FA5B62C7BA17_32768" is_start="0"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#52E0699C-B7DE-4D83-AD2F-77EDD91778AC" startOffset="0.000000%" baseline-shift="0.000000"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g fill="none" enabled="1" ID="3073F8CD-6509-4159-ADA2-4D03B7E7AA9C" dclass="DiaConnectorStyle">
+            <path d=" M 636.703918 663.048828 L 737.219543 615.571106 L 736.792419 614.666931 L 636.276794 662.144653 L 636.703918 663.048828 Z M 636.703918 663.048828" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 636.703918 663.048828 L 737.219543 615.571106 L 736.792419 614.666931 L 636.276794 662.144653 L 636.703918 663.048828 Z M 736.061035 620.126343 L 745.143860 611.275146 L 732.538330 612.668213 Z M 736.061035 620.126343" dclass="DKArrowStroke" fill="#000000"></path>
+            <path d=" M 736.061035 620.126343 L 745.143860 611.275146 L 732.538330 612.668213 Z M 736.061035 620.126343" dclass="DKArrowStroke" fill="#000000"></path>
+        </g>
+        <ConnectorEndPoint location="{635.13403, 663.23737}" id_target_sticky_spot="E6E31C12-2847-4BD9-8534-B4A22BF8D718_32772" is_start="1"></ConnectorEndPoint>
+        <ConnectorEndPoint location="{745.14386, 611.27515}" id_target_sticky_spot="A5951355-E625-4829-9417-C5D72BD2F6E0_32773" is_start="0"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#0644D1EF-AE32-46C4-BF3F-C2B7F63A1F3A" startOffset="0.000000%" baseline-shift="0.000000"></textPath>
+        </text>
+    </g>
+</svg>
