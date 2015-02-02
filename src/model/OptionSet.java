@@ -72,14 +72,6 @@ public class OptionSet implements Serializable{
             throw new OptionException("Invalid OptionSet/Option");
     }
 
-    public ListIterator<String> getOptionNamesItr(){
-        ArrayList<String> optionNames = new ArrayList<String>();
-        for (Option i: options){
-            optionNames.add(i.getName());
-        }
-        return optionNames.listIterator();
-    }
-
     public void setOption(int i, String name, int price){
         Option opt = new Option(name, price);
         options.set(i,opt);
