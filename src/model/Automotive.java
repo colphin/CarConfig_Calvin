@@ -34,7 +34,7 @@ public class Automotive implements Serializable{
      */
     public Automotive(String make, String Model){
         this.make = make;
-        this.model = model;
+        this.model = Model;
         this.configOpt = new ArrayList<OptionSet>();
 
     }
@@ -144,7 +144,7 @@ public class Automotive implements Serializable{
      * @param name
      * @return index of the Option set else return -1
      */
-    private int findOptionSet(String name) {
+    public int findOptionSet(String name) {
         for (OptionSet opt : configOpt) {
             if (opt.getName().equalsIgnoreCase(name)) {
                 return configOpt.indexOf(opt);
@@ -239,10 +239,10 @@ public class Automotive implements Serializable{
      * @param optionName
      * @throws OptionException
      */
-    public void setOptionChoice(String optionSetName, String optionName) throws OptionException{
+    public void setUserOption(String optionSetName, String optionName) throws OptionException{
         if(this.hasOptionSet(optionSetName)){
             if (this.getOptionSet(optionSetName).hasOption(optionName))
-                this.getOptionSet(optionSetName).setOptionChoice(optionName);
+                this.getOptionSet(optionSetName).setUserOption(optionName);
             else
                 throw new OptionException("Error: Invalid Option Name");
         }else {
@@ -295,14 +295,14 @@ public class Automotive implements Serializable{
     }
 
     /**
-     * Gets OptionChoice of the OptionSet
+     * Gets User's Option of the OptionSet
      * @param optionSetName
      * @return
      * @throws OptionException
      */
-    public String getOptionChoice(String optionSetName) throws OptionException {
+    public String getUserOption(String optionSetName) throws OptionException {
         if (this.hasOptionSet(optionSetName)) {
-            return this.getOptionSet(optionSetName).getOptionChoice();
+            return this.getOptionSet(optionSetName).getUserOption();
         } else {
             throw new OptionException("Error: Invalid Option Set");
         }
@@ -328,8 +328,24 @@ public class Automotive implements Serializable{
     public void printFinalConfiguration(){
         System.out.println("**************************************\n"+ "Current Car Configuration for " + make + " " + model + "\n"+"Base Price: $" + basePrice + "\n" + "Configuration Options: \n");
         for (OptionSet i: configOpt){
-            System.out.println(i.toString());
+            try{
+                if (i.getUserOption() == null){
+                    System.out.println("**************************************\n");
+                    throw new FinalConfigException();
+                }else {
+                    System.out.println("___"+i.getName()+"___");
+                    System.out.println(i.getUserOption() + ": " + i.getOptionPrice(i.getUserOption()));
+                    System.out.println();
+                }
+            }catch(FinalConfigException e){
+                e.getExceptionMessage();
+                System.exit(1);
+            }catch(OptionException f){
+                f.fixException();
+            }
         }
+        calculateFinalPrice();
+        System.out.println("\nFinal Price: $" + finalPrice);
         System.out.println("***************************\n");
     }
 
@@ -360,11 +376,11 @@ public class Automotive implements Serializable{
     /**
      * sets the final price doesn't return anything
      */
-    public void setFinalPrice(){
+    public void calculateFinalPrice(){
         finalPrice  = basePrice;
         for (OptionSet optSet: configOpt){
             try{
-                finalPrice += optSet.getOptionPrice(optSet.getOptionChoice());
+                finalPrice += optSet.getOptionPrice(optSet.getUserOption());
             }catch(OptionException e){
                 e.fixException();
             }

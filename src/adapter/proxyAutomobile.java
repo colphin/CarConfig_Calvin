@@ -47,5 +47,17 @@ public abstract class proxyAutomobile{
         }else
             throw new OptionException();
     }
+    
+    public void setUserOption(String s1, String s2) throws OptionException{
+    	a1.setUserOption(s1, s2);
+    }
+    
+    public String getUserOption(String s1) throws OptionException{
+    	return a1.getUserOption(s1);
+    }
+    
+    public void printFinalConfiguration() throws FinalConfigException{
+    	a1.printFinalConfiguration();
+    }
 
 }

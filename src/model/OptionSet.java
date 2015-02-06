@@ -11,7 +11,7 @@ public class OptionSet implements Serializable{
 
     private String name;
     private ArrayList<Option> options;
-    private String optionChoice;
+    private String userOption;
 
     //CONSTRUCTORS
     public OptionSet() {
@@ -46,12 +46,12 @@ public class OptionSet implements Serializable{
         this.options = options;
     }
 
-    public String getOptionChoice() {
-        return optionChoice;
+    public String getUserOption() {
+        return userOption;
     }
 
-    public void setOptionChoice(String optionChoice) {
-        this.optionChoice = optionChoice;
+    public void setUserOption(String s) {
+        this.userOption = s;
     }
 
     public void addOption(String name, int price){
