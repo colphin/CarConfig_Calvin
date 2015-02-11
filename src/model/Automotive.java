@@ -16,6 +16,7 @@ public class Automotive implements Serializable{
 
     private String make;
     private String model;
+    private String name;
     private ArrayList<OptionSet> configOpt;
     private int basePrice;
     private int finalPrice;
@@ -36,7 +37,7 @@ public class Automotive implements Serializable{
         this.make = make;
         this.model = Model;
         this.configOpt = new ArrayList<OptionSet>();
-
+        setName();
     }
 
     /**
@@ -50,6 +51,7 @@ public class Automotive implements Serializable{
         this.model = model;
         this.basePrice = basePrice;
         this.configOpt = new ArrayList<OptionSet>();
+        setName();
 
     }
 
@@ -66,9 +68,18 @@ public class Automotive implements Serializable{
         this.configOpt = configOpt;
         this.basePrice = basePrice;
         this.configOpt = new ArrayList<OptionSet>();
+        setName();
 
     }
 
+
+    public void setName(){
+        this.name = getMake() + " " + getModel();
+    }
+
+    public String getName(){
+        return name;
+    }
 
     /**
      * The get make for the car
@@ -100,6 +111,7 @@ public class Automotive implements Serializable{
      */
     public void setMake(String make) {
         this.make = make;
+        setName();
     }
 
     /**
@@ -108,6 +120,7 @@ public class Automotive implements Serializable{
      */
     public void setModel(String model) {
         this.model = model;
+        setName();
     }
 
     /**
