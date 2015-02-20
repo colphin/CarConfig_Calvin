@@ -3,13 +3,13 @@ package Driver;
 import adapter.*;
 import throwable.*;
 
-public class UserChoiceTest {
+public class CarChoiceTest {
 
-	public static void main (String[] args){
-		BuildAuto proxAuto = new BuildAuto();
-		String fileName = "InputTest.txt";
+    public static void main (String[] args){
+        BuildAuto proxAuto = new BuildAuto();
+        String fileName = "InputTest.txt";
         boolean error;
-        
+
         do{
             try {
                 proxAuto.BuildAuto(fileName);
@@ -26,10 +26,10 @@ public class UserChoiceTest {
                 break;
             }
         }while (error);
-		
+
         try {
-			proxAuto.setUserOption("Color", "Fort Knox Gold Clearcoat Metallic");
-			proxAuto.setUserOption("Transmission", "Automatic");
+            proxAuto.setUserOption("Color", "Fort Knox Gold Clearcoat Metallic");
+            proxAuto.setUserOption("Transmission", "Automatic");
             proxAuto.setUserOption("Brakes", "Standard");
             proxAuto.setUserOption("Side Impact Air Bags", "Present");
             proxAuto.setUserOption("Power Moonroof", "Present");
@@ -38,8 +38,8 @@ public class UserChoiceTest {
             }catch(FinalConfigException a){
                 a.getExceptionMessage();
             }
-		} catch (MyException e) {
-			e.getExceptionMessage();
-		}
-	}
+        } catch (MyException e) {
+            e.getExceptionMessage();
+        }
+    }
 }
