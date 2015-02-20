@@ -91,6 +91,14 @@ public abstract class proxyAutomobile{
     public String getUserOption(String carName, String s1) throws OptionException{
         return autoHashMap.getAutoHashMap().get(carName).getUserOption(s1);
     }
+
+    public Automotive getAutomotive(){
+        return a1;
+    }
+
+    public String getAutoName(){
+        return a1.getName();
+    }
     
     public void printFinalConfiguration() throws FinalConfigException{
     	a1.printFinalConfiguration();

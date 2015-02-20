@@ -4,7 +4,8 @@ import util.FileIO;
 import throwable.*;
 
 import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.ListIterator;
+import java.util.ArrayList;
 
 /**
  * Created by Calvin_Yin on 2/9/15.
@@ -42,5 +43,21 @@ public class AutoGroup {
         autoHashMap.remove(carName);
     }
 
+
+    public ListIterator<String> getKeyIterator(){
+        ArrayList<String> dummy = new ArrayList<String>();
+        for (String key: autoHashMap.keySet()){
+            dummy.add(key);
+        }
+        return dummy.listIterator();
+    }
+
+    public ListIterator<Automotive> getValueIterator(){
+        ArrayList<Automotive> dummy = new ArrayList<Automotive>();
+        for (Automotive value: autoHashMap.values()){
+            dummy.add(value);
+        }
+        return dummy.listIterator();
+    }
 
 }

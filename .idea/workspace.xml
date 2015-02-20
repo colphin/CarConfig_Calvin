@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54793ff4-68a7-4b8b-b1e4-bf19b72cdfef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/AutoGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Automotive.java" afterPath="$PROJECT_DIR$/src/model/Automotive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Driver/LinkedListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CarConfig_Calvin/model/Automotive.class" afterPath="$PROJECT_DIR$/out/production/CarConfig_Calvin/model/Automotive.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CarConfig_Calvin/adapter/proxyAutomobile.class" afterPath="$PROJECT_DIR$/out/production/CarConfig_Calvin/adapter/proxyAutomobile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/AutoGroup.java" afterPath="$PROJECT_DIR$/src/model/AutoGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/throwable/FinalConfigException.java" afterPath="$PROJECT_DIR$/src/throwable/FinalConfigException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Driver/UserChoiceTest.java" afterPath="$PROJECT_DIR$/src/Driver/UserChoiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapter/proxyAutomobile.java" afterPath="$PROJECT_DIR$/src/adapter/proxyAutomobile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,79 +33,163 @@
     <favorites_list name="CarConfig_Calvin" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Automotive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Automotive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6090">
-              <caret line="414" column="18" selection-start-line="414" selection-start-column="18" selection-end-line="414" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
-                <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proxyAutomobile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/adapter/proxyAutomobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28815368" vertical-offset="0" max-vertical-offset="1575">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutoGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/AutoGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OptionSet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/OptionSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2370">
-              <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputTest.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InputTest.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Automotive.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/model/Automotive.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="3336" max-vertical-offset="6120">
+                  <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
+                    <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
+                    <element signature="e#11334#11335#0" expanded="true" />
+                    <element signature="e#11372#11373#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="proxyAutomobile.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/adapter/proxyAutomobile.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1665">
+                  <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#3337#3338#0" expanded="true" />
+                    <element signature="e#3362#3363#0" expanded="true" />
+                    <element signature="e#3396#3397#0" expanded="true" />
+                    <element signature="e#3431#3432#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MyException.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/throwable/MyException.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+                  <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#397#398#0" expanded="true" />
+                    <element signature="e#436#437#0" expanded="true" />
+                    <element signature="e#496#497#0" expanded="true" />
+                    <element signature="e#548#549#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FinalConfigException.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/throwable/FinalConfigException.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+                  <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#554#555#0" expanded="true" />
+                    <element signature="e#581#582#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserChoiceTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Driver/UserChoiceTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="750">
+                  <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Driver/LinkedListTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.27899343" vertical-offset="0" max-vertical-offset="914">
+                  <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProxyAutoTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Driver/ProxyAutoTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1305">
+                  <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AutoGroup.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/model/AutoGroup.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+                  <caret line="21" column="27" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OptionSet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/model/OptionSet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2370">
+                  <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InputTest.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/InputTest.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="FinalConfigException.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/throwable/FinalConfigException.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.28815368" vertical-offset="0" max-vertical-offset="937">
+                  <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#554#555#0" expanded="true" />
+                    <element signature="e#581#582#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Calvin Yin" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -115,12 +202,13 @@
         <option value="$PROJECT_DIR$/src/Driver/CarConfigTest.java" />
         <option value="$PROJECT_DIR$/src/Driver/ProxyAutoTest.java" />
         <option value="$PROJECT_DIR$/src/model/OptionSet.java" />
-        <option value="$PROJECT_DIR$/src/throwable/FinalConfigException.java" />
         <option value="$PROJECT_DIR$/InputTest.txt" />
         <option value="$PROJECT_DIR$/src/Driver/UserChoiceTest.java" />
-        <option value="$PROJECT_DIR$/src/model/Automotive.java" />
         <option value="$PROJECT_DIR$/src/adapter/proxyAutomobile.java" />
+        <option value="$PROJECT_DIR$/src/model/Automotive.java" />
         <option value="$PROJECT_DIR$/src/model/AutoGroup.java" />
+        <option value="$PROJECT_DIR$/src/Driver/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/throwable/FinalConfigException.java" />
       </list>
     </option>
   </component>
@@ -153,6 +241,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,8 +353,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +382,7 @@
       <recent name="$PROJECT_DIR$/src/throwable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserChoiceTest">
+  <component name="RunManager" selected="Application.LinkedListTest">
     <configuration default="false" name="ProxyAutoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -347,6 +435,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Driver.UserChoiceTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CarConfig_Calvin" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Driver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Driver.LinkedListTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -514,16 +624,18 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.ProxyAutoTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.CarConfigTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.UserChoiceTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LinkedListTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.UserChoiceTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ProxyAutoTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CarConfigTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.LinkedListTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UserChoiceTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ProxyAutoTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CarConfigTest" />
       </list>
     </recent_temporary>
   </component>
@@ -550,12 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1423201779937</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Another commit to keep my CAN streak going.&#10;added Autogroup and LinkedHashMap">
+      <created>1423632965536</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1423632965536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-557" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -572,7 +690,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1256656" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1400426" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -580,7 +698,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26923078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -599,7 +717,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="move your body every every body - Added: UserChoiceTest, FinalConfigException" />
-    <option name="LAST_COMMIT_MESSAGE" value="move your body every every body - Added: UserChoiceTest, FinalConfigException" />
+    <MESSAGE value="Another commit to keep my CAN streak going.&#10;added Autogroup and LinkedHashMap" />
+    <MESSAGE value="fixed shit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed shit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -610,6 +730,245 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/model/OptionSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2370">
+          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Automotive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6090">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
+            <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
+            <element signature="e#11334#11335#0" expanded="true" />
+            <element signature="e#11372#11373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/proxyAutomobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1545">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#3337#3338#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/throwable/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="480">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/throwable/FinalConfigException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="450">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver/UserChoiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="750">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AutoGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="780">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/OptionSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2370">
+          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Automotive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5790" max-vertical-offset="6090">
+          <caret line="414" column="18" selection-start-line="414" selection-start-column="18" selection-end-line="414" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
+            <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
+            <element signature="e#11334#11335#0" expanded="true" />
+            <element signature="e#11372#11373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/proxyAutomobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1545">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#3337#3338#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/throwable/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="480">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/throwable/FinalConfigException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AutoGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="780">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/OptionSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2370">
+          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Automotive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5790" max-vertical-offset="6090">
+          <caret line="414" column="18" selection-start-line="414" selection-start-column="18" selection-end-line="414" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
+            <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
+            <element signature="e#11334#11335#0" expanded="true" />
+            <element signature="e#11372#11373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/proxyAutomobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3337#3338#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AutoGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="780">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/OptionSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2370">
+          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Automotive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5484" max-vertical-offset="6150">
@@ -618,6 +977,8 @@
             <element signature="imports" expanded="true" />
             <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
             <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
+            <element signature="e#11334#11335#0" expanded="true" />
+            <element signature="e#11372#11373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -627,8 +988,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#3337#3338#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -639,14 +1002,6 @@
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -696,6 +1051,8 @@
             <element signature="imports" expanded="true" />
             <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
             <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
+            <element signature="e#11334#11335#0" expanded="true" />
+            <element signature="e#11372#11373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -745,6 +1102,8 @@
             <element signature="imports" expanded="true" />
             <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
             <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
+            <element signature="e#11334#11335#0" expanded="true" />
+            <element signature="e#11372#11373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -771,15 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/throwable/MyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17948718" vertical-offset="0" max-vertical-offset="585">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,37 +1155,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver/ProxyAutoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.24866596" vertical-offset="338" max-vertical-offset="1290">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/throwable/FileNameException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35218784" vertical-offset="0" max-vertical-offset="937">
           <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/throwable/FinalConfigException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62770563" vertical-offset="0" max-vertical-offset="693">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver/UserChoiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8701299" vertical-offset="57" max-vertical-offset="750">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,43 +1172,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Automotive.java">
+    <entry file="file://$PROJECT_DIR$/src/Driver/UserChoiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6090">
-          <caret line="414" column="18" selection-start-line="414" selection-start-column="18" selection-end-line="414" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
-            <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AutoGroup.java">
+    <entry file="file://$PROJECT_DIR$/src/Driver/ProxyAutoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/adapter/proxyAutomobile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28815368" vertical-offset="0" max-vertical-offset="1575">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="1665">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
           <folding>
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#3337#3338#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
+            <element signature="e#3396#3397#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AutoGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <caret line="21" column="27" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Automotive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3336" max-vertical-offset="6120">
+          <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setMake#0;class#Automotive#0" expanded="false" />
+            <element signature="method#setModel#0;class#Automotive#0" expanded="false" />
+            <element signature="e#11334#11335#0" expanded="true" />
+            <element signature="e#11372#11373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/throwable/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27899343" vertical-offset="0" max-vertical-offset="914">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/throwable/FinalConfigException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28815368" vertical-offset="0" max-vertical-offset="937">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
           </folding>
         </state>
       </provider>
