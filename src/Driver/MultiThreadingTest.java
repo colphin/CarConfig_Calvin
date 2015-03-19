@@ -1,13 +1,14 @@
 package driver;
 
-import adapter.*;
+import adapter.BuildAuto;
 import model.AutoGroup;
-import throwable.*;
+import throwable.MyException;
+import scale.*;
 
 /**
- * Created by Calvin on 1/26/15.
+ * Created by Calvin_Yin on 2/23/15.
  */
-public class LinkedListTest {
+public class MultiThreadingTest {
 
     public static void main(String[] args) {
         BuildAuto proxAuto = new BuildAuto();
@@ -33,12 +34,18 @@ public class LinkedListTest {
             }
         }while (error);
 
-        System.out.println("NOW TESTING LINKED HASH MAP");
-
         autoGroup.addAuto(proxAuto.getAutomotive());
-        System.out.println(autoGroup.getAutoHashMap().get(proxAuto.getAutoName()).toString());
-        autoGroup.removeAuto(proxAuto.getAutoName());
-
+        EditOptions bigmama = new EditOptions(autoGroup);
+        EditOptions biddaddy = new EditOptions(autoGroup);
+        Thread t1 = new Thread(bigmama);
+        Thread t2 = new Thread(biddaddy);
+        try {
+            t1.start();
+            t1.join();
+            t2.start();
+        }catch(InterruptedException e){
+            System.out.println("Error: "+ e.toString());
+        }
 
     }
 

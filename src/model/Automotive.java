@@ -77,6 +77,10 @@ public class Automotive implements Serializable{
         this.name = getMake() + " " + getModel();
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getName(){
         return name;
     }
@@ -166,6 +170,14 @@ public class Automotive implements Serializable{
         return -1;
     }
 
+    public void printOptionSetAvailable(){
+        System.out.println("______Options Sets_____");
+        for(OptionSet opt : configOpt){
+            System.out.println(opt.getName());
+        }
+        System.out.println("–––––––––––––––––––––––");
+    }
+
     /**
      * The getter method for Option Set
      * @param name
@@ -209,6 +221,14 @@ public class Automotive implements Serializable{
             return this.getOptionSet(optionSetName).getOption(optionName);
         else
             throw new OptionException("Error: Invalid Option Set");
+    }
+
+    public void printOptionsAvailable(OptionSet os){
+        System.out.println("\n___Options in " + os.getName() + "____");
+        for(Option opt : os.getOptions()){
+            System.out.println(opt.getName());
+        }
+        System.out.println("___________________________");
     }
 
     /**

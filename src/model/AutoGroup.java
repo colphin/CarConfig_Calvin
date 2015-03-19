@@ -12,7 +12,6 @@ import java.util.ArrayList;
  */
 public class AutoGroup {
 
-    //TODO add the usual functions for Automotive class (MAIN: add and remove)
 
     private LinkedHashMap<String, Automotive> autoHashMap = new LinkedHashMap<String, Automotive>();
 
@@ -37,6 +36,10 @@ public class AutoGroup {
 
     public void addAuto(Automotive a){
         autoHashMap.put(a.getName(), a);
+    }
+
+    public Automotive getAuto(String name){
+        return autoHashMap.get(name);
     }
 
     public void removeAuto(String carName){

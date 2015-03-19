@@ -58,14 +58,9 @@ public class OptionSet implements Serializable{
         options.add(new Option(name, price));
     }
 
-    public Option getOption(String Name) throws OptionException {
+    public Option getOption(String name) throws OptionException {
         int i = findOption(name);
-        if (i == -1){
-            try {
-                Thread.sleep(10000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        if (i != -1){
             return options.get(i);
         }
         else

@@ -4,6 +4,7 @@ import throwable.*;
 import util.*;
 
 import java.util.LinkedHashMap;
+import java.util.Properties;
 
 
 /**
@@ -83,7 +84,7 @@ public abstract class proxyAutomobile{
     public void setUserOption(String carName,String s1, String s2) throws OptionException{
         autoHashMap.getAutoHashMap().get(carName).setUserOption(s1, s2);
     }
-    
+
     public String getUserOption(String s1) throws OptionException{
     	return a1.getUserOption(s1);
     }
@@ -99,6 +100,7 @@ public abstract class proxyAutomobile{
     public String getAutoName(){
         return a1.getName();
     }
+
     
     public void printFinalConfiguration() throws FinalConfigException{
     	a1.printFinalConfiguration();
@@ -106,6 +108,15 @@ public abstract class proxyAutomobile{
 
     public void printFinalConfiguration(String carName) throws FinalConfigException{
         autoHashMap.getAutoHashMap().get(carName).printFinalConfiguration();
+    }
+
+    public void buildAutoFromPropertyObj(Properties propertyObj)throws Exception{
+        Automotive newAuto = null;
+        newAuto = FileIO.readProperty(propertyObj);
+
+        if (newAuto != null){
+            autoHashMap.addAuto(newAuto);
+        }
     }
 
 }

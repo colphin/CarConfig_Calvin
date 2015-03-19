@@ -5,7 +5,6 @@ import java.util.*;
 import model.*;
 import throwable.*;
 
-
 /**
  * Created by Calvin on 1/25/15.
  */
@@ -130,6 +129,51 @@ public class FileIO {
         } catch (Exception e) {
             System.out.print(e.getMessage());
         }
-    return obj;
+        return obj;
     }
+
+    public static void saveObject(Object obj, String destFile){
+        try {
+            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(destFile));
+            out.writeObject(obj);
+            out.close();
+        } catch (Exception e) {
+            System.out.print(e.getMessage());
+        }
+    }
+
+
+    public static Automotive readProperty(Properties propertyObj) throws Exception{
+        Properties props = propertyObj;
+
+        if (props == null){
+            return null;
+        }
+
+        Automotive auto = null;
+
+        auto.setMake(props.getProperty("Manufacturer"));
+        auto.setModel(props.getProperty("Model"));
+        auto.setBasePrice(Integer.parseInt(props.getProperty("Base Price")));
+
+
+        String optionSetName = null;
+        for (int i = 0; ; i++){
+            optionSetName = props.getProperty("OptionSet"+i).split(":")[0].trim();
+            auto.addOptionSet(optionSetName);
+            if (optionSetName !=  null){
+                break;
+            }
+            String optionBase = null;
+            for (int j = 0; ;j++){
+                optionBase = props.getProperty("Option"+i+j);
+                String optionName = optionBase.split(":")[0].trim();
+                int optionPrice = Integer.parseInt(optionBase.split(":")[1].trim());
+                auto.addOption(optionSetName,optionName,optionPrice);
+            }
+        }
+        return auto;
+    }
+
+
 }
