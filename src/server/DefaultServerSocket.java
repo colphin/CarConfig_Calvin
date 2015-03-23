@@ -2,6 +2,7 @@ package server;
 
 import model.AutoGroup;
 import model.Automotive;
+import throwable.FileFormatException;
 import util.FileIO;
 
 import java.net.*;
@@ -32,6 +33,8 @@ public class DefaultServerSocket extends Thread {
             System.out.println("default server socket started");
             oos = new ObjectOutputStream(sock.getOutputStream());
             ois = new ObjectInputStream(sock.getInputStream());
+            PrintWriter out = new PrintWriter(sock.getOutputStream(), true);
+
             while (true) {
                 System.out.println("Now Listening");
                 String input = null;
@@ -43,22 +46,26 @@ public class DefaultServerSocket extends Thread {
                 if (input.equals("Upload")){
                     Object obj = ois.readObject();
 
-                    if (obj instanceof Properties){
+                    try{
                         Automotive auto = FileIO.readProperty((Properties)obj);
                         carGroup.addAuto(auto);
-                        oos.writeInt(1);
-                    }else{
+                        System.out.println("CarGroup: "+ carGroup.getAutoHashMap().toString());
+                    }catch(Exception e){
                         System.out.println("Error: Not Properties");
-                        oos.writeInt(0);
                     }
 
-                    System.out.println("Recieved: " + obj.toString());
+                    System.out.println("Received");
+                    out.println("Received");
+                }
+
+                if (input.equals("END Client")){
+                    out.println("Bye");
                 }
 
 
             }
         }catch(Exception e){
-            e.getStackTrace();
+            System.out.println("");
         }
 
 

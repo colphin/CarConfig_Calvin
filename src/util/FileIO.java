@@ -5,6 +5,8 @@ import java.util.*;
 import model.*;
 import throwable.*;
 
+import javax.swing.text.html.Option;
+
 /**
  * Created by Calvin on 1/25/15.
  */
@@ -143,36 +145,85 @@ public class FileIO {
     }
 
 
-    public static Automotive readProperty(Properties propertyObj) throws Exception{
-        Properties props = propertyObj;
+    public static Automotive readProperty(Properties propertyObj) throws OptionException{
 
-        if (props == null){
+        if (propertyObj == null){
             return null;
         }
 
-        Automotive auto = null;
+        Automotive auto = new Automotive();
 
-        auto.setMake(props.getProperty("Manufacturer"));
-        auto.setModel(props.getProperty("Model"));
-        auto.setBasePrice(Integer.parseInt(props.getProperty("Base Price")));
+        try {
+            auto.setMake(propertyObj.getProperty("Manufacturer"));
+            auto.setModel(propertyObj.getProperty("Model"));
+            auto.setBasePrice(Integer.parseInt(propertyObj.getProperty("Base_Price")));
+
+        }catch (NullPointerException e){
+            System.out.println("Error: Missing Property");
+        }
 
 
-        String optionSetName = null;
-        for (int i = 0; ; i++){
-            optionSetName = props.getProperty("OptionSet"+i).split(":")[0].trim();
-            auto.addOptionSet(optionSetName);
-            if (optionSetName !=  null){
+        String optionSetName;
+        for (int i = 0; ; i++) {
+            String temp1 = propertyObj.getProperty("OptionSet" + i);
+            if (temp1 == null){
                 break;
             }
-            String optionBase = null;
-            for (int j = 0; ;j++){
-                optionBase = props.getProperty("Option"+i+j);
+            optionSetName = propertyObj.getProperty("OptionSet" + i).split(":")[0].trim();
+            auto.addOptionSet(optionSetName);
+
+            String optionBase;
+            for (int j = 0; ; j++) {
+                optionBase = propertyObj.getProperty("Option" + i + j);
+                if (optionBase == null){
+                    break;
+                }
                 String optionName = optionBase.split(":")[0].trim();
                 int optionPrice = Integer.parseInt(optionBase.split(":")[1].trim());
-                auto.addOption(optionSetName,optionName,optionPrice);
+                auto.addOption(optionSetName, optionName, optionPrice);
+                if (optionBase == null) {
+                    break;
+                }
             }
         }
+
         return auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//        auto.setMake(props.getProperty("Manufacturer"));
+//        auto.setModel(props.getProperty("Model"));
+//        auto.setBasePrice(Integer.parseInt(props.getProperty("Base Price")));
+//
+//        String optionSetName = null;
+//        for (int i = 0; ; i++){
+//            optionSetName = props.getProperty("OptionSet"+i).split(":")[0].trim();
+//            auto.addOptionSet(optionSetName);
+//            if (optionSetName !=  null){
+//                break;
+//            }
+//            String optionBase = null;
+//            for (int j = 0; ;j++){
+//                optionBase = props.getProperty("Option"+i+j);
+//                String optionName = optionBase.split(":")[0].trim();
+//                int optionPrice = Integer.parseInt(optionBase.split(":")[1].trim());
+//                auto.addOption(optionSetName,optionName,optionPrice);
+//            }
+//        }
+//        return auto;
     }
 
 

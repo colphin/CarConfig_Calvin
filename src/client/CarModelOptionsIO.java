@@ -20,7 +20,6 @@ public class CarModelOptionsIO {
 
     private ObjectOutputStream oos = null;
     private ObjectInputStream ois = null;
-    private FileInputStream fis = null;
 
     private Socket socket;
 
@@ -38,7 +37,8 @@ public class CarModelOptionsIO {
             asdf.run();
             //System.out.println("3");
         }catch(Exception e) {
-            System.out.println("ERROR: shits happened.");
+            System.out.println("ERROR: something broke, bug hunting time");
+            e.printStackTrace();
         }
     }
 
@@ -68,9 +68,8 @@ public class CarModelOptionsIO {
         try {
             oos.close();
             ois.close();
-            fis.close();
         } catch (IOException e) {
-            System.out.println("Error Closing Connectoin");
+            System.out.println("Error Closing Connection");
         }
     }
 
@@ -83,34 +82,59 @@ public class CarModelOptionsIO {
     public void handleSession() {
         try {
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+            System.out.println("\n");
             System.out.println("Enter What you want to do");
             System.out.println("1. Upload Car Properties");
-            System.out.println("2. Edit Car Optoins");
+            System.out.println("2. Edit Car Options");
             System.out.println("3. EXIT");
 
-            int choice = Integer.parseInt(in.readLine());
+            int choice = 0;
+            boolean isNotInt = true;
+
+            while(isNotInt) {
+                try {
+                    choice = Integer.parseInt(in.readLine());
+                    isNotInt = false;
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid Input");
+                }
+            }
 
             switch (choice) {
                 case 1: {
                     oos.writeObject("Upload");
                     oos.flush();
-                    String fileName = readFromConsole("What is the name of the file you want to upload: ");
+                    //String fileName = readFromConsole("What is the name of the file you want to upload: ");
+                    String fileName = "/Users/Calvin_Yin/Documents/Desktop/CS35B/CarConfig_Calvin/PropertiesTest.properties";
 
                     File file = new File(fileName);
+                    FileInputStream fileInput = new FileInputStream(file);
+                    Properties properties = new Properties();
+                    properties.load(fileInput);
+                    fileInput.close();
 
-                    fis = new FileInputStream(file);
+                    oos.writeObject(properties);
+                    System.out.println(fileName + " is selected.");
 
-                    System.out.println(file.getName() + " is selected.");
+                    String fromServer = null;
 
-                    oos.writeObject(file);
+                    BufferedReader bfIn = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                    while ((fromServer = bfIn.readLine()) != null) {
+                        if (fromServer.equals("Received")) {
+                            System.out.println("File Transfer Success");
+                            break;
+                        }
+                    }
 
-                    int response = ois.readInt();
-                    System.out.println(response);
 
-                    if (response == 1)
-                        System.out.println("Successful File Transfer");
-                    if (response == 0)
-                        System.out.println("Error: File Transfer");
+
+//                    int response = ois.readInt();
+//                    System.out.println(response);
+//
+//                    if (response == 1)
+//                        System.out.println("Successful File Transfer");
+//                    if (response == 0)
+//                        System.out.println("Error: File Transfer");
 
                     socket.shutdownOutput();
 
@@ -136,8 +160,16 @@ public class CarModelOptionsIO {
                 case 3: {
                     oos.writeObject("END Client");
                     oos.flush();
+                    System.out.println("Closing Session");
 
+                    closeSession();
+                    System.out.println("Session closed");
+                    System.out.println("System Exit");
+                    System.exit(1);
                     break;
+                }
+                default:{
+                    System.out.println("Error: Invalid Entry");
                 }
             }
         } catch (IOException e) {
@@ -284,7 +316,7 @@ public class CarModelOptionsIO {
 //        Automotive car = null;
 //
 //        try{
-//            input = new FileInputStream("PropertiesTest.txt");
+//            input = new FileInputStream("PropertiesTest.properties");
 //            prop.load(input);
 //            car = FileIO.readProperty(prop);
 //        } catch (IOException e){
