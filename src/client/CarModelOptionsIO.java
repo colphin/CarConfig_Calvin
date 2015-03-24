@@ -102,10 +102,13 @@ public class CarModelOptionsIO {
 
             switch (choice) {
                 case 1: {
+                    System.out.println("Upload Selected");
+                    oos.flush();
                     oos.writeObject("Upload");
                     oos.flush();
-                    //String fileName = readFromConsole("What is the name of the file you want to upload: ");
-                    String fileName = "/Users/Calvin_Yin/Documents/Desktop/CS35B/CarConfig_Calvin/PropertiesTest.properties";
+                    String fileName = null;
+                    fileName = readFromConsole("What is the name of the file you want to upload: ");
+                    //String fileName = "FordFocusZTW.properties";
 
                     File file = new File(fileName);
                     FileInputStream fileInput = new FileInputStream(file);
@@ -136,7 +139,7 @@ public class CarModelOptionsIO {
 //                    if (response == 0)
 //                        System.out.println("Error: File Transfer");
 
-                    socket.shutdownOutput();
+                    //socket.shutdownOutput();
 
                     break;
                 }
@@ -149,7 +152,7 @@ public class CarModelOptionsIO {
 
                     ArrayList<String> cars = (ArrayList<String>) ois.readObject();
                     System.out.print("Cars available: ");
-                    System.out.println(cars);
+                    System.out.println(cars);s
 
                     String editCar = readFromConsole("Car you want to Edit: ");
                     String editCar_temp = editCar;
@@ -316,7 +319,7 @@ public class CarModelOptionsIO {
 //        Automotive car = null;
 //
 //        try{
-//            input = new FileInputStream("PropertiesTest.properties");
+//            input = new FileInputStream("FordFocusZTW.properties");
 //            prop.load(input);
 //            car = FileIO.readProperty(prop);
 //        } catch (IOException e){

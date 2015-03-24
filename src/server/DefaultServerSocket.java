@@ -7,6 +7,7 @@ import util.FileIO;
 
 import java.net.*;
 import java.io.*;
+import java.util.ListIterator;
 import java.util.Properties;
 
 /**
@@ -36,20 +37,26 @@ public class DefaultServerSocket extends Thread {
             PrintWriter out = new PrintWriter(sock.getOutputStream(), true);
 
             while (true) {
-                System.out.println("Now Listening");
+                System.out.println("\nNow Listening");
                 String input = null;
                 input = (String) ois.readObject();
                 //ois.reset();
                 System.out.println(input);
 
-
+                //******
+                //Uplaod choice
+                //*****
                 if (input.equals("Upload")){
                     Object obj = ois.readObject();
 
                     try{
                         Automotive auto = FileIO.readProperty((Properties)obj);
                         carGroup.addAuto(auto);
-                        System.out.println("CarGroup: "+ carGroup.getAutoHashMap().toString());
+                        System.out.print("CarGroup: ");
+                        ListIterator itr = carGroup.getKeyIterator();
+                        while (itr.hasNext())
+                            System.out.print(itr.next() + ", ");
+                        System.out.println();
                     }catch(Exception e){
                         System.out.println("Error: Not Properties");
                     }
@@ -58,6 +65,20 @@ public class DefaultServerSocket extends Thread {
                     out.println("Received");
                 }
 
+
+                //******
+                //Edit choice
+                //*****
+                if (input.equals("Edit")){
+                    ListIterator itr = carGroup.getKeyIterator();
+                    oos.writeObject(itr);
+                }
+
+
+
+                //******
+                //Exit choice
+                //*****
                 if (input.equals("END Client")){
                     out.println("Bye");
                 }

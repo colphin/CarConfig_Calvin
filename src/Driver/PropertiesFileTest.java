@@ -18,14 +18,14 @@ public class PropertiesFileTest {
     private static Automotive proxAuto = new Automotive();
 
     public static void main(String[] args) {
-        PropertiesFileTest asdf = new PropertiesFileTest("PropertiesTest.properties");
+        PropertiesFileTest asdf = new PropertiesFileTest("FordFocusZTW.properties");
         System.out.println(proxAuto.toString());
     }
 
     public PropertiesFileTest(String fileName){
         try {
 
-            File file = new File("PropertiesTest.properties");
+            File file = new File("FordFocusZTW.properties");
             FileInputStream fileInput = new FileInputStream(file);
             Properties properties = new Properties();
             properties.load(fileInput);
